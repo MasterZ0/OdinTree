@@ -1,6 +1,6 @@
 # OdinTree
 
-This attribute will make it easier when you need to create custom fields and windows within the NodeCanvas, as this attribute will draws objects using the [Property Tree](https://odininspector.com/tutorials/how-to-create-custom-drawers-using-odin/how-to-use-the-propertytree) in conjunction with the [Custom Object Drawer](https://nodecanvas.paradoxnotion.com/documentation/?section=creating-custom-object-drawers).
+This attribute will make it easier when you need to create custom fields and windows within the NodeCanvas, as this attribute will draws objects using the [Property Tree](https://odininspector.com/tutorials/how-to-create-custom-drawers-using-odin/how-to-use-the-propertytree) in conjunction with the [Attribute Drawer](https://nodecanvas.paradoxnotion.com/documentation/?section=creating-custom-object-drawers).
 
 Requires [Odin Inspector](https://odininspector.com/) and [NodeCanvas](https://nodecanvas.paradoxnotion.com/).
 
