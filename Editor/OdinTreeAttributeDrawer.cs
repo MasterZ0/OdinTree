@@ -8,7 +8,7 @@ using UnityEngine;
 /// </summary>
 public class OdinTreeAttributeDrawer : AttributeDrawer<OdinTreeAttribute> {
         
-    private PropertyTree objectTree;
+    private PropertyTree propertyTree;
     private object obj;
             
     public override object OnGUI(GUIContent content, object instance) {
@@ -19,12 +19,12 @@ public class OdinTreeAttributeDrawer : AttributeDrawer<OdinTreeAttribute> {
         }
 
         // Update the object
-        if (objectTree == null || obj != instance) {
+        if (propertyTree == null || obj != instance) {
             obj = instance;
-            objectTree = PropertyTree.Create(instance);
+            propertyTree = PropertyTree.Create(instance);
         }
 
-        objectTree.Draw(false);
+        propertyTree.Draw(false);
         return instance;
     }
 }
