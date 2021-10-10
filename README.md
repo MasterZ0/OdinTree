@@ -9,7 +9,7 @@ Simply put the OdinTreeAttributeDrawer.cs file inside an Editor folder and the O
 
 # Example
  
-First you create a serialized class, using the attribute [System.Serializeble]. Within this class you can use any attribute, including other assets such as [FMODUnity.EventRef].
+First you create a serialized class using the attribute [System.Serializeble]. Within this class you can use any attribute, including other assets such as [FMODUnity.EventRef].
 
 ```
 [System.Serializable]
@@ -31,7 +31,7 @@ And then just declare your class using the [OdinTree] attribute inside a NodeCan
 
 ```
 public class Speak : ActionTask {
-    [OdinTree] public DialogueConfig dialogueData;
+    [OdinTree] public DialogueConfig dialogueConfig;
 }
 ```
 
