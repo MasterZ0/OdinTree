@@ -35,5 +35,5 @@ public class Speak : ActionTask {
 }
 ```
 
-Example:
+Preview:
 ![image](https://user-images.githubusercontent.com/64444068/136711700-e0d11d84-f9fb-45ff-99a2-4b8106eda5f9.png)
