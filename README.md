@@ -18,7 +18,7 @@ public class DialogueConfig {
     [TextArea]
     public string text = "This is a dialogue text";
 
-    [ColorPalette("ActirsColors")]
+    [ColorPalette("ActorsColors")]
     public Color color;
 
     public PlayableAsset playable;
